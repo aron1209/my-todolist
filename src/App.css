@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+html {
+  background: #202020;
+  color: #fafafa;
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+li span {
+  margin: 0.5em 1em;
+}
